@@ -1,0 +1,134 @@
+
+
+body   {  
+         background:#113344 url(uilogo.gif);
+         background-repeat:repeat;
+         background-size:2% auto;
+         background-position:center left;
+         background-attachment:fixed;
+        }
+
+
+
+
+#container {
+
+         background-color:rgb(255,255,255);
+         width:800px;
+	min-height:800px;
+         margin:20px auto;
+         border: 1px solid #CCC;
+
+   }
+
+
+Header    {
+         Width:100%;
+        min-height:35px;
+         background-color:#CCC;
+         float:left;
+         margin:0;
+             
+      }
+
+section  {
+         Width:100%;
+         min-height:550px;
+         background:#F00 url(road-1.jpg);
+         opacity:0.8;
+         filter:alpha(opacity=80);
+         background-repeat:no-repeat;
+         background-size:100% 100%;
+         background-position:center left;
+         margin:0;
+	 float:left;
+        }
+
+
+footer {
+         Width:100%;
+         min-height:50px;
+         background-color:#CCC;
+         opacity:0.6;
+         filter:alpha(opacity=60);
+
+     }
+form    {
+
+        width:500px;
+        margin:250px auto;
+        color:#FFF;
+}
+
+
+#logo_dv  {
+         
+         Width:100%;
+         min-height:115px;
+         background-color:#F9F9F9;
+         float:left;
+        
+        }
+
+#navigation_dv {
+             Width:100%;
+         background-color:#F1F1F1;
+         float:left;
+        
+         }
+
+#logo_dv h1    {
+          font-size:40px;
+          font-family:"Comic Sans Ms", cursive;
+          color:#8B008B;
+          text-shadow:3px 10px 10px #F0F;
+          padding-left:20px;
+          float:left;  
+
+         }
+            
+#navigation_dv ul  {
+          width:100%;
+          list-style:none;
+          padding:20;
+          margin:0;
+          float:left;
+          border:1px solid #D8D8D8;
+          border-left:none;
+          border-right:none;
+          }
+
+
+#navigation_dv li  {
+          width:auto;
+          font-family:"Comic Sans Ms", cursive;
+          padding:5px 15px 5px 15px;
+          font-size:18px;
+          float:left;
+          border:1px solid #D8D8D8;
+          }
+
+
+#navigation_dv li:hover  {
+          background-color:#F00;
+          color:#FFF;
+        }
+
+
+section h2    {
+
+        width:100%;
+         text-transform:uppercase;
+         text-decoration:underline;
+         float:left;
+             }
+
+      
+
+#road_pic img{
+
+       width:100%;
+       float:left;
+       
+
+       }

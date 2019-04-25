@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link type="text/css" rel= "stylesheet" href= "mytest.css" media= "screen">
+<script type="text/javascript" src="jquery.js"> $(document).ready(function() { $('.myMenu > li').bind('mouseover', openSubMenu); $('.myMenu > li').bind('mouseout', closeSubMenu); function openSubMenu() { $(this).find('ul').css('visibility', 'visible'); }; function closeSubMenu() { $(this).find('ul').css('visibility', 'hidden'); }; }); </script>
+<ul class="myMenu">
+ <li><a href="#">menu item 1</a></li>
+  <li><a href="#">menu item 2</a> 
+  <ul>
+   <li><a href="#">sub menu item 1</a></li> 
+   <li><a href="#">sub menu item 2</a></li>
+    <li><a href="#">sub menu item 3</a></li> 
+    <li><a href="#">sub menu item 4</a></li> 
+    </ul> 
+    </li> 
+    <li><a href="#">menu item 3</a> <ul>
+     <li><a href="#">sub menu item 1</a></li> 
+     <li><a href="#">sub menu item 2</a></li> 
+     <li><a href="#">sub menu item 3</a></li> 
+     <li><a href="#">sub menu item 4</a></li> 
+     </ul> 
+     </li> 
+     <li><a href="#">menu item 4</a></li> 
+     <li><a href="#">menu item 5</a></li>
+      </ul>
+</head>
+
+<body>
+</body>
+</html>
